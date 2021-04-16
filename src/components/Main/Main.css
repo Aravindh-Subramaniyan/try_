@@ -1,0 +1,101 @@
+.main_left{
+    background: white;
+    grid-area: nav;
+    overflow-y: auto;
+    height:80px;
+    width: 460px;
+    display:flex;
+    align-items: center;
+    padding: 0 30px 0 30px;
+    text-decoration: none;
+    /* border-bottom:1px solid lightgrey; */
+}
+
+.active_menu{
+    color: #673AB7;
+    font-weight: 500;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.main_left > a{
+    color: grey;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.main_side > a{
+    color:grey;
+}
+
+.main_side {
+    background: white;
+    grid-area: nav;
+    overflow-y: auto;
+    height:80px;
+    width: 460px;
+    display:flex;
+    align-items: center;
+    padding: 0 10px 0 100px;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;   
+    color: grey;
+}
+.main_below{
+     padding-right: 100px;
+}
+.main_below > a{
+    color: grey;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+   
+}
+
+.add-role >a{
+    color:azure;
+    background-color: #673AB7;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: left;
+    overflow-y: auto;
+    height:40px;
+    width: 150px;
+    display:flex;
+    align-items: center;
+    padding: 0 10px 0 10px;
+   border-radius: 5px;
+   padding-right: 0px;
+
+}
+@media only screen and (max_width: 978px){
+    .main_left{
+        display: inline;
+    }
+}
